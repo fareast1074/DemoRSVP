@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#173c32" />
+  <meta name="description" content="Undangan walimatulurus Syaza & Khalis." />
+  <meta property="og:title" content="Syaza & Khalis — Undangan Walimatulurus" />
+  <meta property="og:description" content="Dengan penuh kesyukuran, kami menjemput anda meraikan hari bahagia kami." />
+  <meta property="og:type" content="website" />
+  <title>Syaza & Khalis — Undangan Walimatulurus</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="loader" class="loader" aria-hidden="true">
+    <div class="loader-mark">S<span>&</span>K</div>
+    <div class="loader-line"></div>
+  </div>
+
+  <div id="cover" class="cover">
+    <div class="cover-pattern"></div>
+    <div class="cover-inner">
+      <p class="eyebrow">UNDANGAN WALIMATULURUS</p>
+      <div class="arabic">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</div>
+      <div class="cover-monogram">S <span>&</span> K</div>
+      <h1>Syaza <span>&</span> Khalis</h1>
+      <p class="cover-date" data-wedding-date-label>Sabtu · 14 November 2026</p>
+      <button id="openInvitation" class="btn btn-gold">Buka Undangan</button>
+      <p class="cover-note">Scroll perlahan untuk melihat kisah & maklumat majlis kami.</p>
+    </div>
+  </div>
+
+  <main id="mainContent" class="site" aria-hidden="true">
+    <nav class="top-nav">
+      <div class="nav-brand">S & K</div>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#story">Kisah</a>
+        <a href="#details">Majlis</a>
+        <a href="#rsvp">RSVP</a>
+        <a href="#location">Lokasi</a>
+        <a href="#gallery">Galeri</a>
+      </div>
+    </nav>
+
+    <section id="home" class="hero section">
+      <div class="hero-overlay"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">THE WEDDING OF</p>
+        <div class="script-name">Syaza <span>&</span> Khalis</div>
+        <p class="hero-date" data-wedding-date-label>Sabtu · 14 November 2026</p>
+        <p class="hero-quote">“Dan di antara tanda-tanda kekuasaan-Nya, Dia menciptakan untukmu pasangan hidup...”</p>
+        <div class="hero-actions">
+          <a class="btn btn-light" href="#rsvp">Sahkan Kehadiran</a>
+          <button id="shareBtn" class="btn btn-ghost">Kongsi Jemputan</button>
+        </div>
+      </div>
+      <div class="hero-scroll">SCROLL <span>↓</span></div>
+    </section>
+
+    <section class="section intro section-paper">
+      <div class="container narrow reveal">
+        <div class="ornament">✦</div>
+        <h2>Assalamualaikum<br><span>Warahmatullahi Wabarakatuh</span></h2>
+        <p>
+          Dengan penuh kesyukuran ke hadrat Allah SWT, kami menjemput
+          Datuk / Datin / Tuan / Puan / Saudara / Saudari untuk bersama-sama
+          meraikan hari istimewa kami.
+        </p>
+        <p class="muted">Semoga kehadiran dan doa anda melengkapkan hari bahagia kami.</p>
+      </div>
+    </section>
+
+    <section class="section couple">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">DUA HATI · SATU JANJI</p>
+          <h2>Syaza <span>&</span> Khalis</h2>
+        </div>
+        <div class="couple-grid">
+          <article class="person-card reveal">
+            <div class="portrait" style="--img:url('https://images.unsplash.com/photo-1592621385612-4d8f5f8c6f2c?auto=format&fit=crop&w=900&q=85')"></div>
+            <div class="person-copy">
+              <p class="eyebrow">PENGANTIN PEREMPUAN</p>
+              <h3>SYAZA BINTI XXXXX</h3>
+              <p>Puteri kepada<br><strong>En. XXXXX & Pn. XXXXX</strong></p>
+            </div>
+          </article>
+          <div class="ampersand reveal">&</div>
+          <article class="person-card reveal">
+            <div class="portrait" style="--img:url('https://images.unsplash.com/photo-1512316609839-ce289d3eba0a?auto=format&fit=crop&w=900&q=85')"></div>
+            <div class="person-copy">
+              <p class="eyebrow">PENGANTIN LELAKI</p>
+              <h3>KHALIS BIN XXXXX</h3>
+              <p>Putera kepada<br><strong>En. XXXXX & Pn. XXXXX</strong></p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section countdown-section section-paper">
+      <div class="container reveal">
+        <div class="section-heading centered">
+          <p class="eyebrow">MENUJU HARI BAHAGIA</p>
+          <h2>Detik Yang Dinanti</h2>
+        </div>
+        <div id="countdown" class="countdown">
+          <div class="time-card"><span id="days">00</span><small>Hari</small></div>
+          <div class="time-card"><span id="hours">00</span><small>Jam</small></div>
+          <div class="time-card"><span id="minutes">00</span><small>Minit</small></div>
+          <div class="time-card"><span id="seconds">00</span><small>Saat</small></div>
+        </div>
+        <p id="countdownDone" class="countdown-done" hidden>Hari bahagia kami telah tiba. Alhamdulillah 🤍</p>
+      </div>
+    </section>
+
+    <section id="story" class="section story">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">OUR STORY</p>
+          <h2>Secebis Kisah Kami</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-year">2021</div>
+            <div class="timeline-card"><h3>First Meeting</h3><p>Berawal dengan sebuah pertemuan sederhana yang kemudiannya menjadi cerita yang tidak pernah kami sangka.</p></div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-year">2023</div>
+            <div class="timeline-card"><h3>Getting Closer</h3><p>Semakin mengenali, semakin banyak perkara yang membuat kami menghargai satu sama lain.</p></div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-year">2025</div>
+            <div class="timeline-card"><h3>Engagement</h3><p>Dengan restu keluarga, kami mengambil langkah untuk menuju satu perjalanan yang lebih indah.</p></div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-year">2026</div>
+            <div class="timeline-card"><h3>Hari Bahagia</h3><p>Dengan izin-Nya, kami melangkah ke fasa baru sebagai suami dan isteri.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="details" class="section details section-paper">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">BUTIRAN MAJLIS</p>
+          <h2>Catat Tarikh Ini</h2>
+        </div>
+        <div class="event-grid">
+          <article class="event-card reveal">
+            <div class="event-icon">☾</div>
+            <p class="eyebrow">ACARA PERTAMA</p>
+            <h3>Akad Nikah</h3>
+            <div class="event-detail"><span>Tarikh</span><strong>Sabtu, 14 November 2026</strong></div>
+            <div class="event-detail"><span>Masa</span><strong>10:00 Pagi</strong></div>
+            <div class="event-detail"><span>Tempat</span><strong>Dewan XXX</strong></div>
+          </article>
+          <article class="event-card highlight reveal">
+            <div class="event-icon">✦</div>
+            <p class="eyebrow">ACARA KEDUA</p>
+            <h3>Walimatulurus</h3>
+            <div class="event-detail"><span>Tarikh</span><strong>Sabtu, 14 November 2026</strong></div>
+            <div class="event-detail"><span>Masa</span><strong>12:00 Tengah Hari – 4:00 Petang</strong></div>
+            <div class="event-detail"><span>Tempat</span><strong>Dewan XXX</strong></div>
+          </article>
+        </div>
+        <div class="calendar-wrap reveal">
+          <a id="calendarBtn" class="btn btn-dark" href="#" target="_blank" rel="noopener">＋ Tambah ke Kalendar</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="rsvp" class="section rsvp">
+      <div class="container">
+        <div class="rsvp-box reveal">
+          <div class="rsvp-copy">
+            <p class="eyebrow">RSVP</p>
+            <h2>Sahkan Kehadiran Anda</h2>
+            <p>Mohon isi borang ringkas di sebelah supaya kami dapat membuat persiapan dengan sebaiknya.</p>
+            <div class="rsvp-note">
+              <span>♡</span>
+              <p>Tarikh tutup RSVP: <strong>31 Oktober 2026</strong></p>
+            </div>
+          </div>
+          <div class="form-wrap">
+            <!--
+              GOOGLE FORM SETUP:
+              1) Create a Google Form with the same fields.
+              2) Get the pre-filled link for the form.
+              3) Replace GOOGLE_FORM_ACTION below with the formResponse URL.
+              4) Replace every entry.xxxxx value with the matching Google Form entry ID.
+            -->
+            <form id="rsvpForm" class="rsvp-form" action="https://docs.google.com/forms/d/e/GOOGLE_FORM_ID/formResponse" method="POST" target="googleFormFrame">
+              <div class="field">
+                <label for="name">Nama Penuh *</label>
+                <input id="name" name="entry.000000001" type="text" placeholder="Contoh: Nur Aisyah" required>
+              </div>
+              <div class="field">
+                <label for="phone">Nombor Telefon *</label>
+                <input id="phone" name="entry.000000002" type="tel" placeholder="Contoh: 0123456789" required>
+              </div>
+              <div class="field">
+                <label for="attendance">Kehadiran *</label>
+                <select id="attendance" name="entry.000000003" required>
+                  <option value="" selected disabled>Pilih kehadiran</option>
+                  <option>Hadir</option>
+                  <option>Tidak Hadir</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="guests">Bilangan Tetamu *</label>
+                <input id="guests" name="entry.000000004" type="number" min="0" max="20" placeholder="1" required>
+              </div>
+              <div class="field">
+                <label>Acara Yang Dihadiri *</label>
+                <div class="check-grid">
+                  <label class="check"><input type="checkbox" name="entry.000000005" value="Akad Nikah"> <span>Akad Nikah</span></label>
+                  <label class="check"><input type="checkbox" name="entry.000000005" value="Walimatulurus"> <span>Walimatulurus</span></label>
+                </div>
+              </div>
+              <div class="field">
+                <label for="message">Catatan / Pesanan</label>
+                <textarea id="message" name="entry.000000006" rows="4" placeholder="Titipkan ucapan atau maklumat tambahan..."></textarea>
+              </div>
+              <button class="btn btn-dark full" type="submit">Hantar RSVP</button>
+              <p class="form-disclaimer">Maklumat RSVP direkodkan terus ke Google Form pasangan.</p>
+            </form>
+            <iframe name="googleFormFrame" id="googleFormFrame" title="Google Form submission frame" class="hidden-frame"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="location" class="section location section-paper">
+      <div class="container location-grid">
+        <div class="location-copy reveal">
+          <p class="eyebrow">LOKASI MAJLIS</p>
+          <h2>Dewan XXX</h2>
+          <p class="address">Alamat penuh venue,<br>Perak, Malaysia</p>
+          <div class="location-actions">
+            <a id="mapsBtn" class="btn btn-dark" href="#" target="_blank" rel="noopener">Google Maps</a>
+            <a id="wazeBtn" class="btn btn-outline" href="#" target="_blank" rel="noopener">Waze</a>
+          </div>
+          <p class="muted small">Tekan mana-mana butang untuk terus mendapatkan navigasi.</p>
+        </div>
+        <div class="map-card reveal">
+          <div class="map-grid"></div>
+          <div class="map-pin">♥</div>
+          <div class="map-label">Dewan XXX · Perak</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">MOMENTS</p>
+          <h2>Galeri Kenangan</h2>
+        </div>
+        <div class="gallery-grid">
+          <button class="gallery-item large reveal" data-src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=85"><img loading="lazy" alt="Pasangan pengantin" src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=85"></button>
+          <button class="gallery-item reveal" data-src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1200&q=85"><img loading="lazy" alt="Dekorasi perkahwinan" src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=700&q=85"></button>
+          <button class="gallery-item tall reveal" data-src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1200&q=85"><img loading="lazy" alt="Bunga perkahwinan" src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=700&q=85"></button>
+          <button class="gallery-item reveal" data-src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1200&q=85"><img loading="lazy" alt="Majlis perkahwinan" src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=700&q=85"></button>
+          <button class="gallery-item wide reveal" data-src="https://images.unsplash.com/photo-1507504031003-b417219a0fde?auto=format&fit=crop&w=1200&q=85"><img loading="lazy" alt="Suasana romantik" src="https://images.unsplash.com/photo-1507504031003-b417219a0fde?auto=format&fit=crop&w=900&q=85"></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section guestbook section-paper">
+      <div class="container narrow">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">DOA & UCAPAN</p>
+          <h2>Tinggalkan Pesanan</h2>
+        </div>
+        <div class="guestbook-card reveal">
+          <p class="guestbook-lead">“Semoga Allah memberkati penyatuan ini dan mengurniakan sakinah, mawaddah & rahmah.”</p>
+          <p class="muted small">Ucapan tetamu boleh direkodkan menggunakan Google Form kedua jika anda menyediakannya.</p>
+          <a id="guestbookBtn" href="#" class="btn btn-outline" target="_blank" rel="noopener">Tulis Ucapan</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact">
+      <div class="container narrow reveal">
+        <p class="eyebrow">HUBUNGI KAMI</p>
+        <h2>Ada Pertanyaan?</h2>
+        <p class="muted">Hubungi keluarga/pasangan melalui WhatsApp untuk sebarang pertanyaan berkaitan majlis.</p>
+        <a id="whatsappBtn" href="#" class="btn btn-green">WhatsApp Kami</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container narrow">
+        <div class="footer-monogram">S <span>&</span> K</div>
+        <div class="script-name">Syaza <span>&</span> Khalis</div>
+        <p>Terima kasih kerana sudi hadir dan meraikan hari bahagia kami.</p>
+        <small>Made with love · 2026</small>
+      </div>
+    </footer>
+  </main>
+
+  <div class="floating-tools">
+    <button id="musicToggle" class="fab" type="button" aria-label="Hidupkan atau matikan muzik">♫</button>
+    <button id="topBtn" class="fab" type="button" aria-label="Kembali ke atas">↑</button>
+  </div>
+
+  <div id="lightbox" class="lightbox" hidden>
+    <button id="lightboxClose" class="lightbox-close" type="button" aria-label="Tutup">×</button>
+    <button id="lightboxPrev" class="lightbox-arrow left" type="button" aria-label="Gambar sebelumnya">‹</button>
+    <img id="lightboxImage" alt="Galeri" src="" />
+    <button id="lightboxNext" class="lightbox-arrow right" type="button" aria-label="Gambar seterusnya">›</button>
+  </div>
+
+  <div id="successModal" class="modal" hidden>
+    <div class="modal-card">
+      <div class="success-icon">✓</div>
+      <p class="eyebrow">RSVP DITERIMA</p>
+      <h2>Terima Kasih 🤍</h2>
+      <p>Maklumat anda telah dihantar ke borang RSVP kami.</p>
+      <button id="modalClose" class="btn btn-dark">Tutup</button>
+    </div>
+  </div>
+
+  <audio id="bgMusic" preload="none" loop>
+    <!-- Letakkan fail muzik anda di assets/music/wedding.mp3 -->
+    <source src="assets/music/wedding.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
